@@ -1,0 +1,201 @@
+{
+  "times": [
+    "07:00 - 08:00",
+    "08:00 - 09:00",
+    "09:00 - 09:15",
+    "09:15 - 10:15",
+    "10:15 - 11:15",
+    "11:15 - 11:45",
+    "11:45 - 12:45",
+    "12:45 - 13:45",
+    "13:45 - 14:45"
+  ],
+  "slot_types": [
+    "Study",
+    "Study",
+    "Short Break",
+    "Study",
+    "Study",
+    "Long Break",
+    "Study",
+    "Study",
+    "Study"
+  ],
+  "schedule": {
+    "Monday": [
+      "WC",
+      "CNND",
+      "Short Break",
+      "WC",
+      "Revision - WC",
+      "Long Break",
+      "TCS (Extra Focus)",
+      "TCS (Extra Focus)",
+      "Revision - TCS"
+    ],
+    "Tuesday": [
+      "TCS (Extra Focus)",
+      "TCS (Extra Focus)",
+      "Short Break",
+      "CNND",
+      "Revision - PYTHON",
+      "Long Break",
+      "CNND",
+      "CNND",
+      "Revision - CNND"
+    ],
+    "Wednesday": [
+      "WC",
+      "CNND",
+      "Short Break",
+      "CNND",
+      "Revision - TCS",
+      "Long Break",
+      "WC",
+      "TCS (Extra Focus)",
+      "TCS (Extra Focus)"
+    ],
+    "Thursday": [
+      "WC",
+      "WC",
+      "Short Break",
+      "PYTHON (Extra Focus)",
+      "PYTHON (Extra Focus)",
+      "Long Break",
+      "CNND",
+      "CNND",
+      "Revision - WC"
+    ],
+    "Friday": [
+      "WC",
+      "CNND",
+      "Short Break",
+      "WC",
+      "Revision - PYTHON",
+      "Long Break",
+      "PYTHON (Extra Focus)",
+      "PYTHON (Extra Focus)",
+      "Revision - PYTHON"
+    ],
+    "Saturday": [
+      "WC",
+      "WC",
+      "Short Break",
+      "CNND",
+      "Revision - CNND",
+      "Long Break",
+      "CNND",
+      "TCS (Extra Focus)",
+      "TCS (Extra Focus)"
+    ],
+    "Sunday": [
+      "PYTHON (Extra Focus)",
+      "PYTHON (Extra Focus)",
+      "Short Break",
+      "WC",
+      "Revision - CNND",
+      "Long Break",
+      "CNND",
+      "WC",
+      "Revision - TCS"
+    ]
+  },
+  "completion": {
+    "Monday": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Tuesday": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Wednesday": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Thursday": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Friday": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Saturday": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Sunday": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "subject_count": 4,
+  "subjects": [
+    "TCS",
+    "WC",
+    "PYTHON",
+    "CNND"
+  ],
+  "weak_subject": "TCS, PYTHON",
+  "strong_subject": "CNND, WC",
+  "weak_subjects": [
+    "TCS",
+    "PYTHON"
+  ],
+  "strong_subjects": [
+    "CNND",
+    "WC"
+  ],
+  "start_time": "07:00",
+  "end_time": "15:00"
+}
