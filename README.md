@@ -122,33 +122,46 @@ python app.py
 ## 📂 Project Structure
 
 smart-learning-app/
-│
-├── app/                         
-│   ├── app.py                   
-│   ├── add_notes.py             
-│   ├── notes_dashboard.py       
-│
-├── data/                        
-│   ├── Complete_Study_Materials_FINAL.xlsx
-│   ├── Complete_Study_Materials_WITH_CLASS_1_10.xlsx
-│   ├── Past_Papers_ALL_BOARDS_COMPLETE.xlsx
-│   ├── Past_Papers_COMPLETE_ALL_CLASSES_STREAM.xlsx
-│   ├── Past_Papers_UPDATED.xlsx
-│
-├── docs/                        
-│   └── user_guide.pdf
-│
-├── Research Paper/              
-│   ├── research_paper.pdf
-│   └── references/
-│       ├── ref1.pdf
-│       ├── ref2.pdf
-│
-├── assets/                     
-│
-├── requirements.txt            
-├── .gitignore                  
-├── README.md                  
+├── src/
+│   ├── __init__.py
+│   ├── main.py                 # renamed from app.py
+│   ├── ui/
+│   │   ├── __init__.py
+│   │   ├── main_window.py      # main UI components
+│   │   ├── dashboard.py        # notes dashboard
+│   │   └── styles.py           # shared UI constants
+│   ├── modules/
+│   │   ├── __init__.py
+│   │   ├── notes_manager.py    # add_notes.py functionality
+│   │   ├── video_manager.py    # video.py functionality
+│   │   ├── past_papers.py      # existing past_papers.py
+│   │   └── schedule.py         # existing schedule.py
+│   └── utils/
+│       ├── __init__.py
+│       ├── file_handler.py     # file operations
+│       └── config.py           # configuration settings
+├── data/
+│   ├── datasets/
+│   │   ├── Complete_Study_Materials_FINAL.xlsx
+│   │   ├── Past_Papers_UPDATED.xlsx
+│   │   └── other_excel_files.xlsx
+│   └── user_data/
+│       ├── schedule.json
+│       ├── timer_state.json
+│       └── saved_links.txt
+├── assets/
+│   ├── icons/
+│   └── fonts/
+├── tests/
+│   ├── __init__.py
+│   └── test_modules/
+├── docs/
+│   ├── README.md
+│   ├── requirements.txt
+│   └── user_guide.md
+├── .venv/
+├── .gitignore
+└── requirements.txt                
 
 ---
 
