@@ -27,20 +27,6 @@ Instead of using multiple apps, this system combines scheduling, learning resour
 
 ---
 
-## 🎥 Demo (Add GIF here)
-
-👉 Add a screen recording GIF of your app
-
-Example:
-
-```
-![Demo](your-demo.gif)
-```
-
-Tip: Use tools like ScreenToGif or OBS
-
----
-
 ## ✨ Features
 
 ### 📅 Smart Study Schedule
@@ -110,13 +96,13 @@ Tip: Use tools like ScreenToGif or OBS
 Clone the repository:
 
 ```
-git clone https://github.com/your-username/Smart_Learning_project.git
+git clone https://github.com/AyushD2406/Smart-learning-app.git
 ```
 
 Go to project folder:
 
 ```
-cd Smart_Learning_project
+cd Smart-learning-app
 ```
 
 Install dependencies:
@@ -128,23 +114,41 @@ pip install pandas yt-dlp reportlab
 Run the application:
 
 ```
-python main.py
+python app.py
 ```
 
 ---
 
 ## 📂 Project Structure
 
-```
-Smart_Learning_project/
-│── main.py
-│── schedule.py
-│── video.py
-│── notes.py
-│── pastpapers.py
-│── schedule.json
-│── README.md
-```
+smart-learning-app/
+│
+├── app/                         # Core application logic
+│   ├── app.py                   # Main entry point
+│   ├── add_notes.py             # Notes management
+│   ├── notes_dashboard.py       # Dashboard UI
+│
+├── data/                        # Excel datasets / study materials
+│   ├── Complete_Study_Materials_FINAL.xlsx
+│   ├── Complete_Study_Materials_WITH_CLASS_1_10.xlsx
+│   ├── Past_Papers_ALL_BOARDS_COMPLETE.xlsx
+│   ├── Past_Papers_COMPLETE_ALL_CLASSES_STREAM.xlsx
+│   ├── Past_Papers_UPDATED.xlsx
+│
+├── docs/                        # Documentation
+│   └── user_guide.pdf
+│
+├── Research Paper/              # Academic references
+│   ├── research_paper.pdf
+│   └── references/
+│       ├── ref1.pdf
+│       ├── ref2.pdf
+│
+├── assets/                      # Images (if added later)
+│
+├── requirements.txt             # Dependencies
+├── .gitignore                   # Ignore unnecessary files
+├── README.md                   # Project documentation
 
 ---
 
