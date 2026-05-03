@@ -155,7 +155,8 @@ Smart_Learning_project/
 ```
 Assets/Dashboard.jpeg
 Assets/Notes.jpeg
-<img width="505" height="417" alt="WhatsApp Image 2026-05-03 at 12 25 43" src="https://github.com/user-attachments/assets/8affe0a4-cad7-44e5-b00e-ace7d1837ff4" />
+Assets/Schedule.jpeg
+
 ```
 
 ---
